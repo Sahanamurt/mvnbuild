@@ -1,7 +1,5 @@
 pipeline{
-  agent{
-    label 'java_slave_node'
-  }
+  agent any
   stages{
     stage('hi gys'){
     steps{
