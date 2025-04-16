@@ -1,9 +1,9 @@
 pipeline{
   agent any
   stages{
-    stage('hello'){
+    stage('hi gys'){
     steps{
-      echo "hi devops"
+      echo "this is devops class"
     }
   }
 }
